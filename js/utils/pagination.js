@@ -27,6 +27,8 @@ export function initPagination({ elementId, defaultParams, onChange }) {
   // set current active page
   // TODO: use default params
 
+  
+
   // add click event for prev link
   const prevLink = ulPagination.firstElementChild?.firstElementChild
   if (prevLink) {
